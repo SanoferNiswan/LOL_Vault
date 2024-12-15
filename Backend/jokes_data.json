@@ -1,0 +1,436 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Programming"
+    },
+    {
+      "id": 2,
+      "name": "Animals"
+    },
+    {
+      "id": 3,
+      "name": "Technology"
+    },
+    {
+      "id": 4,
+      "name": "Food"
+    },
+    {
+      "id": 5,
+      "name": "Miscellaneous"
+    },
+    {
+      "id": 6,
+      "name": "Dad Jokes"
+    }
+  ],
+  "jokes": [
+    {
+      "jokeId": 101,
+      "setup": "Why do programmers prefer dark mode?",
+      "punchline": "Because light attracts bugs! 🐞",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 102,
+      "setup": "How do you comfort a JavaScript bug?",
+      "punchline": "You console it. 🤖",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 103,
+      "setup": "Why did the programmer quit his job?",
+      "punchline": "Because he didn’t get arrays. 😵",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 104,
+      "setup": "What is a programmer’s favorite hangout place?",
+      "punchline": "The Foo Bar! 🍸",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 105,
+      "setup": "Why do Java developers wear glasses?",
+      "punchline": "Because they don’t C#. 👓",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 106,
+      "setup": "What’s the object-oriented way to become wealthy?",
+      "punchline": "Inheritance. 💰",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 107,
+      "setup": "Why do Python programmers prefer a snake as a pet?",
+      "punchline": "Because it’s easy to import. 🐍",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 201,
+      "setup": "Why don't seagulls fly over the bay?",
+      "punchline": "Because then they'd be bagels! 🥯",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 202,
+      "setup": "What do you call an alligator in a vest?",
+      "punchline": "An investigator! 🐊",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 203,
+      "setup": "What do you get when you cross a snowman and a vampire?",
+      "punchline": "Frostbite. ❄️🧛‍♂️",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 204,
+      "setup": "Why did the computer go to the doctor?",
+      "punchline": "It had a virus. 🤧",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 205,
+      "setup": "What’s the best way to avoid a robot uprising?",
+      "punchline": "Don’t byte off more than you can chew. 🤖",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 206,
+      "setup": "Why did the programmer bring a ladder to work?",
+      "punchline": "Because they were working on a high-level project! 🧗‍♂️",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 207,
+      "setup": "What did the burger say to the ketchup?",
+      "punchline": "Lettuce ketchup! 🍔",
+      "categoryId": 4,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 208,
+      "setup": "Why don’t eggs tell jokes?",
+      "punchline": "Because they might crack up! 🥚",
+      "categoryId": 4,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 209,
+      "setup": "What do you call fake spaghetti?",
+      "punchline": "An impasta! 🍝",
+      "categoryId": 4,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 210,
+      "setup": "Why was the math book sad?",
+      "punchline": "Because it had too many problems. 📚",
+      "categoryId": 5,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 211,
+      "setup": "What do you get when you cross a teacher with a vampire?",
+      "punchline": "Lots of blood tests! 🧛‍♀️",
+      "categoryId": 5,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 212,
+      "setup": "Why did the student eat his homework?",
+      "punchline": "Because the teacher said it was a piece of cake! 🎂",
+      "categoryId": 5,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 213,
+      "setup": "Why don’t skeletons fight each other?",
+      "punchline": "They don’t have the guts! 💀",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 214,
+      "setup": "What do you call a bear with no teeth?",
+      "punchline": "A gummy bear! 🐻",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 215,
+      "setup": "Why did the developer go broke?",
+      "punchline": "Because he used up all his cache! 💸",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 216,
+      "setup": "How do you make a tissue dance?",
+      "punchline": "You put a little boogey in it! 🎶",
+      "categoryId": 4,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 217,
+      "setup": "Why can't you trust an atom?",
+      "punchline": "Because they make up everything! ⚛️",
+      "categoryId": 5,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 218,
+      "setup": "Why do cows have hooves instead of feet?",
+      "punchline": "Because they lactose! 🐄",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 219,
+      "setup": "Why did the coffee file a police report?",
+      "punchline": "It got mugged! ☕",
+      "categoryId": 4,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 220,
+      "setup": "What did the left eye say to the right eye?",
+      "punchline": "Between you and me, something smells! 👀",
+      "categoryId": 5,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 221,
+      "setup": "Why was the computer cold?",
+      "punchline": "It left its Windows open! 💻",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 222,
+      "setup": "What do you call fake spaghetti?",
+      "punchline": "An impasta! 🍝",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 223,
+      "setup": "Why did the scarecrow win an award?",
+      "punchline": "Because he was outstanding in his field! 🌾",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 224,
+      "setup": "How does a penguin build its house?",
+      "punchline": "Igloos it together! 🐧",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 225,
+      "setup": "Why don’t programmers like nature?",
+      "punchline": "It has too many bugs! 🌳",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 226,
+      "setup": "What do you get when you drop a piano down a mine shaft?",
+      "punchline": "A flat minor! 🎹",
+      "categoryId": 4,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 227,
+      "setup": "What’s orange and sounds like a parrot?",
+      "punchline": "A carrot! 🥕",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 228,
+      "setup": "What did one ocean say to the other ocean?",
+      "punchline": "Nothing, they just waved! 🌊",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 229,
+      "setup": "Why don’t skeletons fight each other?",
+      "punchline": "They don’t have the guts! 💀",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 230,
+      "setup": "Why did the tomato turn red?",
+      "punchline": "Because it saw the salad dressing! 🍅",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 231,
+      "setup": "What’s the best way to watch a fly fishing tournament?",
+      "punchline": "Live stream! 🎣",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 232,
+      "setup": "Why can’t your nose be 12 inches long?",
+      "punchline": "Because then it would be a foot! 👃",
+      "categoryId": 4,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 233,
+      "setup": "What do you call cheese that isn’t yours?",
+      "punchline": "Nacho cheese! 🧀",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 234,
+      "setup": "Why did the bicycle fall over?",
+      "punchline": "Because it was two-tired! 🚲",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 235,
+      "setup": "What did one plate say to the other plate?",
+      "punchline": "Lunch is on me! 🍽️",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 236,
+      "setup": "Why don’t skeletons fight each other?",
+      "punchline": "They don’t have the guts. 🦴",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 237,
+      "setup": "What do you call cheese that isn’t yours?",
+      "punchline": "Nacho cheese. 🧀",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 238,
+      "setup": "Why couldn’t the bicycle stand up by itself?",
+      "punchline": "It was two tired. 🚲",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 239,
+      "setup": "What do you call fake spaghetti?",
+      "punchline": "An impasta. 🍝",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 240,
+      "setup": "Why did the scarecrow win an award?",
+      "punchline": "Because he was outstanding in his field. 🌾",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 241,
+      "setup": "Why did the tomato turn red?",
+      "punchline": "Because it saw the salad dressing! 🥗",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 242,
+      "setup": "Why don’t eggs tell jokes?",
+      "punchline": "They’d crack each other up. 🥚",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 243,
+      "setup": "What did the grape do when it got stepped on?",
+      "punchline": "Nothing, it just let out a little wine. 🍇",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 244,
+      "setup": "How do you organize a space party?",
+      "punchline": "You planet. 🪐",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 245,
+      "setup": "Why don’t you ever see elephants hiding in trees?",
+      "punchline": "Because they’re so good at it. 🐘",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 246,
+      "setup": "why pendrive go to hospital",
+      "punchline": "because it got virus",
+      "categoryId": 5,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 247,
+      "setup": "Why do Coders prefer dark mode?",
+      "punchline": "Because light attracts bugs! 🐞",
+      "categoryId": "1",
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 248,
+      "setup": "Why do Coders prefer dark mode?",
+      "punchline": "Because light attracts bugs! 🐞",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 249,
+      "setup": "What do you call an eagle who can play the piano?",
+      "punchline": "Talonted",
+      "categoryId": 2,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 250,
+      "setup": "What's the best thing about elevator jokes?\n\n",
+      "punchline": "They work on so many levels.",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 251,
+      "setup": "There are 10 types of people in this world...\n\n",
+      "punchline": "Those who understand binary and those",
+      "categoryId": 1,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    }
+  ]
+}
