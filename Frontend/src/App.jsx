@@ -10,19 +10,10 @@ import Jokes from './components/Jokes';
 import Footer from './components/Footer';
 
 function App() {
-  const categories = [
-    { id: 0, name: 'All' },
-    { id: 1, name: 'Programming' },
-    { id: 2, name: 'Animals' },
-    { id: 3, name: 'Technology' },
-    { id: 4, name: 'Food' },
-    { id: 5, name: 'Miscellaneous' }, 
-    { id: 6, name: 'Dad Jokes' },
-  ];
 
   return (
     <div className='App'>
-        <Navbar categories={categories}/>
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='about' element={<About />}></Route>

@@ -431,6 +431,20 @@
       "punchline": "Those who understand binary and those",
       "categoryId": 1,
       "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 252,
+      "setup": "Why did the tomato blush?\n\n",
+      "punchline": "Because it saw the salad dressing.",
+      "categoryId": 4,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 253,
+      "setup": "Why did the coffee file a police report?\n\n",
+      "punchline": "It got mugged.",
+      "categoryId": 5,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
     }
   ]
 }

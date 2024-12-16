@@ -1,32 +1,31 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-const Navbar = ({categories}) => {
-  // const categories = [
-  //   { id: 0, name: 'All' },
-  //   { id: 1, name: 'Programming' },
-  //   { id: 2, name: 'Animals' },
-  //   { id: 3, name: 'Technology' },
-  //   { id: 4, name: 'Food' },
-  //   { id: 5, name: 'Miscellaneous' }, 
-  //   { id: 6, name: 'Dad_Jokes' },
-  // ];
+const Navbar = () => {
+  const categories = [
+    { id: 0, name: 'All' },
+    { id: 1, name: 'Programming' },
+    { id: 2, name: 'Animals' },
+    { id: 3, name: 'Technology' },
+    { id: 4, name: 'Food' },
+    { id: 5, name: 'Miscellaneous' }, 
+    { id: 6, name: 'Dad_Jokes' },
+  ];
 
-  const [selectedCategory, setSelectedCategory] = useState(''); // Initially no category selected
+  const [selectedCategory, setSelectedCategory] = useState(''); 
   const navigate = useNavigate();
 
   const handleCategoryChange = (e) => {
     const categoryId = e.target.value;
     setSelectedCategory(categoryId);
 
-    // Navigate to the homepage if "Categories" is selected (empty value)
     if (categoryId === '') {
       navigate('/');
     }else if(categoryId === '0'){
       navigate('/jokes');
     }
      else {
-      navigate(`/category/${categoryId}`); // Navigate to the selected category
+      navigate(`/category/${categoryId}`);
     }
   };
 
@@ -38,7 +37,7 @@ const Navbar = ({categories}) => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About us</Link></li>
         <li><Link to="/addJoke">Add Joke</Link></li>
-        <li>Quiz</li>
+        {/* <li>Quiz</li> Will implement later */}
         <li className="dropdown-container">
 
           <select

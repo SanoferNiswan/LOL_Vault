@@ -22,9 +22,9 @@ const Home = () => {
     }
   };
 
-  useEffect(() => {
-    fetchJoke();
-  }, []);
+  // useEffect(() => {
+  //   fetchJoke();
+  // }, []);
 
   return (
     <div className='Home'>
