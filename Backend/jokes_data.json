@@ -445,6 +445,27 @@
       "punchline": "It got mugged.",
       "categoryId": 5,
       "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 254,
+      "setup": "I just got fired from my job at the keyboard factory.\n\n",
+      "punchline": "They told me I wasn't putting in enough shifts.",
+      "categoryId": 3,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 255,
+      "setup": "How do you find Will Smith in the snow?\n",
+      "punchline": "\nLook for fresh prints.",
+      "categoryId": 5,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
+    },
+    {
+      "jokeId": 256,
+      "setup": "What do birds give out on Halloween?\n\n",
+      "punchline": "Tweets.",
+      "categoryId": 6,
+      "img": "https://random-image-pepebigotes.vercel.app/api/random-image"
     }
   ]
 }

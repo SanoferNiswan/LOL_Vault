@@ -32,8 +32,7 @@ const Home = () => {
       <div className="joke-container">
         <div className="joke-card">
           <p className="setup">{joke.setup || 'Have fun!'}</p>
-          {showPunchline && <p className="punchline">{joke.punchline}</p>}
-          {/* {!showPunchline && <button className='reveal-btn' onClick={() => setShowPunchline(true)}>Reveal Punchline</button>} */}
+          {showPunchline && <h6 className="punchline">{joke.punchline}</h6>}
           {!showPunchline && <h1 onClick={() => setShowPunchline(true)}>...</h1>}
         </div>
         <button onClick={fetchJoke}>New Joke</button>

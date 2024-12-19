@@ -5,7 +5,7 @@ const AddJoke = () => {
   const [setup, setSetup] = useState('');
   const [punchline, setPunchline] = useState('');
   const [categoryId, setCategoryId] = useState('');
-
+ 
   const handleSubmit = async (e) => {
     e.preventDefault(); 
 
